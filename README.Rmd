@@ -7,7 +7,7 @@ and an index/factor.
 
 ```
 collapseData <- function(x, ind, func=mean,  ...) {
-        tapply(X=, INDEX=ind, FUN=func, ...)
+        tapply(X=x, INDEX=ind, FUN=func, ...)
 }
 ```
 
